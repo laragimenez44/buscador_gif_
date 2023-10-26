@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(110, 109, 109);
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.contenedor .entrada_texto {
+    gap: 30px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 20px;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+
+.contenedor .buscador {
+    gap: 30px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 20px;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+
+.resultados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+}
